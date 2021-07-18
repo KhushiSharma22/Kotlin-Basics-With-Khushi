@@ -12,6 +12,13 @@ fun main(args: Array<String>) {
     val var2 = "I am a big Potterhead"
     var1="Khushi Sharma"
     println("$var1" + " " + "$var2")
-
+    
+   //3. Read Input from the User
+   println("Enter your name and age")
+   var read = Scanner(System.`in`)
+   var name = readLine()!!
+   var age = read.nextInt()
+   println("$name")
+   println("$age")
 
 }
